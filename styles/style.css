@@ -1,5 +1,125 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 0;   
     font-family: 'Lato', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.navbar-collapse {
+    padding: 15px 0;
+    justify-content: flex-end;
+}
+.navbar{
+  padding: 0;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar li{
+    position: relative;
+}
+.navbar ul li a{
+    color: black;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar ul li a:focus{
+    color: red;
+}
+.get-started-btn {
+    margin-left: 22px;
+    background: #ff0000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+}
+.get-started-btn:hover{
+    color: white;
+    background: black;
+}
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/img2.jpg);
+    background-size: cover;
+    position: relative;
+}
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.555);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero .container {
+    padding-top: 72px;
+}
+#hero h1{
+    margin: 0;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+#hero h2 {
+    color: rgb(207, 204, 204);
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+#hero .btn-get-started {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 13px 35px;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#hero .btn-get-started:focus{
+    background:#ff0000;
+    border: 1px solid #ff0000;
+}
+#hero .btn-get-started:active{
+    border: 1px solid #ff0000;
+}
+#hero .btn-get-started:hover{
+  border: 1px solid #ff0000;
+  background:#ff0000;
+}
+span{
+  color: #ff0000;
+}
+
+section{
+  padding: 60px 0;
+}
+.btn-primary{
+  color: #fff;
+  background: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 50px ;
+  margin-top: 215px;
+}
+.btn-primary:hover{
+  background: #000;
+  border: 1px solid #000;
+}
+.btn-primary:active{
+  background: #000;
+  border: 1px solid #000;
 }
