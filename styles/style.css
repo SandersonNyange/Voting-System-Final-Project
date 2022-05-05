@@ -56,13 +56,13 @@ a {
     position: relative;
 }
 #hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.555);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.555);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 #hero .container {
     padding-top: 72px;
@@ -98,28 +98,63 @@ a {
     border: 1px solid #ff0000;
 }
 #hero .btn-get-started:hover{
-  border: 1px solid #ff0000;
-  background:#ff0000;
+    border: 1px solid #ff0000;
+    background:#ff0000;
 }
 span{
-  color: #ff0000;
+    color: #ff0000;
+}
+
+.breadcrumbs {
+    margin-top: 73px;
+    text-align: center;
+    background: #000;
+    padding: 30px 0;
+    color: #fff;
+}
+.breadcrumbs h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+.breadcrumbs p {
+    font-size: 14px;
+    margin-bottom: 0;
 }
 
 section{
-  padding: 60px 0;
+    padding: 60px 0;
 }
 .btn-primary{
-  color: #fff;
-  background: #ff0000;
-  border: 1px solid #ff0000;
-  border-radius: 50px ;
-  margin-top: 215px;
+    
+    color: #fff;
+    width: 25%;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 50px ;
+    margin-top: 103px;
 }
 .btn-primary:hover{
-  background: #000;
-  border: 1px solid #000;
+    background: #000;
+    border: 1px solid #000;
 }
 .btn-primary:active{
-  background: #000;
-  border: 1px solid #000;
+    background: #000;
+    border: 1px solid #000;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+.about .content ul li {
+    padding-bottom: 10px;
+}
+.about .content h3 {
+    font-weight: 700;
+    font-size: 28px;
+}
+.about .content ul i {
+  font-size: 23px;
+  padding-right: 4px;
+  color: #ff0000;
 }
